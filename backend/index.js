@@ -1,3 +1,4 @@
+const { log } = require('console');
 const http = require('http');
 
 let notes = [
@@ -13,7 +14,8 @@ let notes = [
   },
   {
     id: 3,
-    content: 'GET and POST are the most important methods of HTTP protocol',
+    content:
+      'GET and POST are the most important methods of HTTP protocol ',
     important: true,
   },
 ];
